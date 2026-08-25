@@ -1,0 +1,79 @@
+/* ==========================================
+   FADE UP
+========================================== */
+
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+@keyframes fadeUp{
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   FADE RIGHT
+========================================== */
+
+.fade-right{
+
+    opacity:0;
+
+    transform:translateX(60px);
+
+    animation:fadeRight 1s ease forwards;
+
+}
+
+@keyframes fadeRight{
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* ==========================================
+   DELAYS
+========================================== */
+
+.delay-1{
+
+    animation-delay:.2s;
+
+}
+
+.delay-2{
+
+    animation-delay:.4s;
+
+}
+
+.delay-3{
+
+    animation-delay:.6s;
+
+}
+
+.delay-4{
+
+    animation-delay:.8s;
+
+}
