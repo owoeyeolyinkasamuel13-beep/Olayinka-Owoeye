@@ -2443,3 +2443,45 @@ section {
     }
 
 }
+
+/* ==========================================
+   MOBILE ABOUT SECTION
+========================================== */
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 90px 0;
+    }
+
+    .about-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: none;
+    }
+
+    .about-text p {
+        width: 100%;
+        max-width: none;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .about-highlights {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .about-highlights .card {
+        width: 100%;
+    }
+
+}
